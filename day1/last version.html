@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input {
+            width: 340px;
+            height: 32px;
+            padding-left: 40px;
+            top: 8px;
+            font-size: 16px;
+        }
+
+
+        .span1 {
+            position: absolute;
+            top: 8px;
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .span2 {
+            position: absolute;
+            top: 12px;
+            width: 190px;
+            height: 32px;
+            right: 12px;
+        }
+
+        .icon {
+            width: 16px;
+            padding-top: 12px;
+            position: absolute;
+        }
+
+        .leftpng {
+            left: 16px;
+        }
+
+        .rightpng {
+            left: 356px;
+        }
+
+        .icon2 {
+            height: 20px;
+        }
+
+        .right1 {
+            position: absolute;
+            right: 164px;
+            top: 4px;
+        }
+
+        .right2 {
+            position: absolute;
+            right: 124px;
+            top: 4px;
+        }
+
+        .right3 {
+            position: absolute;
+            right: 84px;
+            top: 4px;
+        }
+
+        .right4 {
+            position: absolute;
+            right: 44px;
+            top: 4px;
+        }
+
+        .icon3 {
+            position: absolute;
+            height: 32px;
+            float: right;
+            right: 0px;
+        }
+
+        .span3 {
+            position: absolute;
+            top: 60px;
+            height: 42px;
+            width: 630px;
+        }
+
+        .word1 {
+            position: absolute;
+            top: 4px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .button1 {
+            width: 102px;
+            height: 32px;
+            background-image: url("img/svg/ud_button.png");
+            background-size: 14px;
+            background-position-y: center;
+            background-position-x: 10px;
+            background-repeat: no-repeat;
+            padding-left: 18px;
+            font-size: 17px;
+            color: blue;
+            border-color: blue;
+        }
+
+        .button2 {
+            background-image: url("img/svg/tri.png");
+            background-size: 12px;
+            background-position-x: 60px;
+            background-position-y: center;
+            background-repeat: no-repeat;
+            width: 86px;
+            height: 32px;
+            padding-left: 0px;
+            font-size: 17px;
+            color: blue;
+            border-color: blue;
+        }
+
+        .button3 {
+            background-image: url("img/svg/tri.png");
+            background-size: 12px;
+            background-position-x: 60px;
+            background-position-y: center;
+            background-repeat: no-repeat;
+            width: 86px;
+            height: 32px;
+            padding-left: 0px;
+            font-size: 17px;
+            color: white;
+            background-color: blue;
+            border-color: blue;
+        }
+
+        .span4 {
+            position: absolute;
+            right: 208px;
+        }
+
+        .span5 {
+            position: absolute;
+            right: 110px;
+        }
+
+        .span6 {
+            position: absolute;
+            right: 12px;
+        }
+
+        .span7 {
+            position: absolute;
+            right: 0px;
+            top: 60px;
+            height: 42px;
+        }
+
+        .realclasslist {
+            position: absolute;
+            right: 20px;
+            top: 100px;
+            display: none;
+        }
+
+        .img1 {
+            position: absolute;
+            right: 80px;
+            height: 16px;
+            width: 16px;
+            padding-top: 2px;
+        }
+
+        .classlistmember {
+            background-color: white;
+            padding-left: 40px;
+            font-size: 18px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <span class="span1">
+        <img src="img/svg/search.png" class="leftpng icon">
+        <input type="text" placeholder="搜索">
+        <img src="img/svg/three.svg" class="rightpng icon">
+    </span>
+    <span class="span2">
+        <img src="img/svg/universe.png" class="icon2 right1">
+        <img src="img/svg/bulb.png" class="icon2 right2">
+        <img src="img/svg/button.png" class="icon2 right3">
+        <img src="img/svg/product.png" class="icon2 right4">
+        <img src="img/user.png" class="icon3 ">
+    </span><br>
+    <span class="span3">
+        <span class="word1">主页</span>
+
+
+    </span>
+    <span class="span7 "><span class="span4"><input type="button" value="模板库" class="button1"></span>
+        <span class="span5"><input type="button" value="上传" class="button2"></span>
+        <span class="span6"><input onclick="showlist()" type="button" value="新建"
+                class="button3 realbutton"></span></span>
+    <span class="realclasslist">
+        <dd class="classlistmember"><img src="img/[OLRP@BUI1UNUIOR@%CLD[B.png" class="img1">多维表格</dd>
+        <dd class="classlistmember"><img src="img/VFLCZ9{I~7HFFD(OV7F8)3Y.png" class="img1">文档</dd>
+        <dd class="classlistmember"><img src="img/G[CN@[`8NA]IPDKB{T)MZ3J.png" class="img1">表格</dd>
+        <dd class="classlistmember"><img src="img/L7JMGZIV$5DBASSUBKN6W5I.png" class="img1">收集表</dd>
+        <dd class="classlistmember"><img src="img/X`U3(78{EDK19E8DG`@A(M4.png" class="img1">思维笔记</dd>
+        <dd class="classlistmember"><img src="img/KW(WVX6O{U3KNZ}Q76D2%%M.png" class="img1">更多类型</dd>
+        <dd class="classlistmember"><img src="img/_SZGC3`ST3JBN(}UYAUE9P7.png" class="img1">文件夹</dd>
+        <dd class="classlistmember">文档应用</dd>
+        <dd class="classlistmember"><img src="img/$(A[_LW[5SVG%2GI14IP0SR.png" class="img1">画板</dd>
+        <dd class="classlistmember"><img src="img/6EA96)LE(HTURTLL_Q6[E(L.png" class="img1">思维导图</dd>
+        <dd class="classlistmember"><img src="img/T7[`[{LR3PS17M68NM]IT1T.png" class="img1">流程图</dd>
+    </span>
+    <script>
+        const name = document.querySelector(".realclasslist");
+        function showlist() {
+            if (name.style.display == "block") {
+                name.style.display = "none";
+            } else {
+                name.style.display = "block";
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
