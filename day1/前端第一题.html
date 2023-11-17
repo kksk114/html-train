@@ -151,6 +151,7 @@
         .span6 {
             position: absolute;
             right: 12px;
+            border-radius: 30%
         }
 
         .span7 {
@@ -165,20 +166,24 @@
             right: 20px;
             top: 100px;
             display: none;
+            border-style: solid;
+            width: 120px;
+            border-width: 0.1px;
         }
 
         .img1 {
             position: absolute;
-            right: 80px;
+            left: 10px;
             height: 16px;
             width: 16px;
-            padding-top: 2px;
+            padding-top: 4.25px;
         }
 
         .classlistmember {
             background-color: white;
-            padding-left: 40px;
+            padding-left: 5px;
             font-size: 18px;
+            margin-left: 25px;
         }
     </style>
 
@@ -207,7 +212,7 @@
         <span class="span5"><input type="button" value="上传" class="button2"></span>
         <span class="span6"><input onclick="showlist()" type="button" value="新建"
                 class="button3 realbutton"></span></span>
-    <span class="realclasslist">
+    <div class="realclasslist">
         <dd class="classlistmember"><img src="img/[OLRP@BUI1UNUIOR@%CLD[B.png" class="img1">多维表格</dd>
         <dd class="classlistmember"><img src="img/VFLCZ9{I~7HFFD(OV7F8)3Y.png" class="img1">文档</dd>
         <dd class="classlistmember"><img src="img/G[CN@[`8NA]IPDKB{T)MZ3J.png" class="img1">表格</dd>
@@ -219,7 +224,7 @@
         <dd class="classlistmember"><img src="img/$(A[_LW[5SVG%2GI14IP0SR.png" class="img1">画板</dd>
         <dd class="classlistmember"><img src="img/6EA96)LE(HTURTLL_Q6[E(L.png" class="img1">思维导图</dd>
         <dd class="classlistmember"><img src="img/T7[`[{LR3PS17M68NM]IT1T.png" class="img1">流程图</dd>
-    </span>
+    </div>
     <script>
         const name = document.querySelector(".realclasslist");
         function showlist() {
