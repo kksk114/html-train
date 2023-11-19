@@ -13,3 +13,14 @@ https://github.com/kksk114/html-train
 
 https://kksk114.github.io/
 
+2.5
+
+做了1.加法4.找朋友5.做蛋糕
+
+# 前端
+
+1.
+
+2.
+
+3.用户为kksk996，密码为kksk114514.

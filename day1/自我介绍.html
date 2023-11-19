@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0, 0);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1, 1);
+            }
+        }
+
+        .father {
+            animation: fadeIn 2s ease-in;
+        }
+
+        .top {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto;
+            transition: transform 1s;
+        }
+
+        .top:hover {
+            transform: rotate(360deg) scale(1.3);
+        }
+
+        .img1 {
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        .main {
+            margin-top: auto;
+        }
+
+        .game,
+        .food {
+            float: left;
+            width: 50%;
+            background-color: burlywood;
+        }
+
+        .img2 {
+            width: 300px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="father">
+        <div class="top">
+            <img class="img1" src="img/QQ图片20231119142612.png" alt="">
+        </div>
+        <div class="banner">
+            <h2>简介</h2><br>
+            <p>出生于温州，在成都长大，父母分别来自内江和自贡，热爱家乡成都的一切,喜欢的运动时跑步，虽然我的体型看上去并不适合。喜欢看比赛，最喜欢看足球和lpl，虽然经常被自己主队气死。</p>
+        </div>
+        <div class="main">
+            <div class="game">
+                <div>
+                    <h1>喜欢的游戏</h1>
+                    <p>现在主要玩瓦，虽然还没能脱离癌症分段，但是玩的很开心，各种独立游戏也喜欢，还热爱在魂类游戏里折磨自己。</p>
+                    <img src="img/小黑盒.png" class="img2">
+                    <img src="img/瓦.png" class="img2">
+                </div>
+            </div>
+            <div class="food">
+                <div>
+                    <h1>喜欢的食物</h1>
+                    <p>喜欢各种菜系地几乎所有美食，也喜欢尝试各种没有吃过的食物，愿意把生活费地大头花在吃饭上面。平时也喜欢喝点小酒，酒量还算的上勉勉强强。</p>
+                    <img src="img/拼盘.png" class="img2">
+                    <img src="img/酒.png" class="img2">
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</body>
+
+<body>
+
+</body>

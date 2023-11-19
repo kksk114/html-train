@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            position: absolute;
+        }
+
+        input {
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        function realsignin(event) {
+            event.preventDefault();
+
+            var uesrname = document.getElementById("uesrname").value;
+            var password = document.getElementById("password").value;
+            if (uesrname == "kksk996" && password == "kksk114514") {
+                alert("登录成功");
+                window.location.href = "自我介绍.html";
+            } else {
+                alert("登录失败");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="div1">
+        <div class="class2">用户名</div>
+        <input type="text" name="uesrname" id="uesrname" placeholder="请输入用户名">
+        <div class="class2">密码</div>
+        <input type="password" name="password" id="password" placeholder="请输入密码"><br>
+        <input type="submit" value="登录" id="submit" onclick="realsignin(event)">
+    </div>
+</body>
+
+</html>
